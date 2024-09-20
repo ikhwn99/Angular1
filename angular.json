@@ -27,9 +27,10 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/bootstrap.min.css"
             ],
-            "scripts": [],
+            "scripts": ["src/bootstrap.min.js"],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -90,12 +91,18 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
+              "node_modules/primeng/resources/primeng.min.css",
+              "node_modules/primeflex/primeflex.css"
             ],
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "a690b442-dc07-49a4-bf02-d715a81e5c63"
   }
 }

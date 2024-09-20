@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+button{
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+    align-self: center;
+    align-items: center;
+}
+.form-group{
+    background-color: rgb(205, 240, 228);
+    width: 350px;
+}
+
+.container{
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center;     /* centers vertically */
+    height: 100vh;   
+}
+
+#sbmtButton{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+.btn-primary{
+    width: 200px;
+}
